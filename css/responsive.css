@@ -1,7 +1,63 @@
 @media(max-width:768px){
   .container{
     width: 100%;
+    font-size: .5rem;
+    margin: auto;
+    padding: 1rem;
+  }
+  .notifications{
+    margin: 10px;
+  }
+  .comment{
+    width: 70%;
+    margin-left: 4.5rem;
+    border: 2px solid hsl(205, 33%, 90%);
+    padding: 10px;
+    line-height: 1.3;
+  }
+  .user-container{
+    background-color: hsl(210, 60%, 98%);
+    padding: 0px;
+  }
+  h1{
+    font-size: 1rem;
+    gap: 10px;
+  }
+  .number-notficiatcion{
+    background-color: #153879;
+    color: #fff;
     font-size: .8rem;
   }
-  
+  .remove-notifications{
+    font-size: .875rem;
+  }
+  .container-notifications{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .notfication-new::after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #ec5553;
+    margin-top: 3px;
+    margin-left: 10px;
+  }
+  .not-notification{
+    background-color: #fff;
+  }
+  .user img{
+    width: 30px;
+  }
+  .user{
+    width: 90% !important;
+  }
+  .image-chess{
+    width:25px ;
+    height: 25px;
+    cursor: pointer;
+  }
+
 }
