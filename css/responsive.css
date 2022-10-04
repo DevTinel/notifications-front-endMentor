@@ -1,0 +1,7 @@
+@media(max-width:768px){
+  .container{
+    width: 100%;
+    font-size: .8rem;
+  }
+  
+}
